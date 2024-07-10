@@ -1,10 +1,13 @@
 import { Navbar, Hero } from '../Sections/index';
+import background from '../public/background-banner.jpg';
 
 const Header = () => {
     return (
-        <header>
-            <Navbar />
-            <Hero />
+        <header className='border border-orange-500'>
+            <div className=''>
+                <Navbar />
+                <Hero />
+            </div>
         </header>
     );
 };
